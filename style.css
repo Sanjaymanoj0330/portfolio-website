@@ -1,0 +1,112 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Segoe UI,sans-serif;
+background:#f4f7fc;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#2563eb,#7c3aed,#ec4899);
+padding:30px;
+text-align:center;
+color:white;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+gap:20px;
+list-style:none;
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+main{
+max-width:1000px;
+margin:auto;
+padding:30px;
+}
+
+section,article{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h2{
+font-size:3rem;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:30px;
+margin-top:20px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+flex:1;
+min-width:250px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+form{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+input,
+textarea{
+width:100%;
+padding:12px;
+margin-top:5px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:8px;
+}
